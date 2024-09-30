@@ -17,7 +17,7 @@ export default function ContactMe() {
   const sendEmail = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_l2obu7s', 'template_eetjv4s', e.target, 'l7GrCAicTGIPSNGVaXuqG')
+    emailjs.sendForm('portfolio', 'template_eetjv4s', e.target, 'NZr8Y6xf1SxkdiPYt')
       .then((result) => {
         alert('Message sent successfully!');
       }, (error) => {
