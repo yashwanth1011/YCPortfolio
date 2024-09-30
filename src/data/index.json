@@ -1,0 +1,85 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Expert in React.js, HTML, CSS, Tailwind CSS, and Redux. Developed responsive UIs for applications, improving page load speed by 30% and delivering smooth user experiences for clients."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Proficient in Node.js, Express, Java Spring Boot, and REST APIs. Experience in building scalable backend systems, reducing retrieval times by 30% and integrating with 5+ systems using microservices architecture."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Machine Learning",
+      "description": "Skilled in TensorFlow, PyTorch, and Scikit-learn. Worked on predictive modeling and NLP projects like Natural Language to SQL Query Generation and Ethereum Fraud Detection, achieving high accuracy and performance."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Real Time Chat Application",
+      "description": "A real-time chat application enabling users to connect instantly via WebSocket technology. It supports both private and group chats, ensuring efficient and seamless messaging. Designed for high performance and responsiveness, the app delivers instant message updates for interactive communication.",
+      "link": "https://github.com/yashwanth1011/RealTimeChatApplication"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "MERN FinTrends Dashboard using Machine Learning",
+      "description": "MERN FinTrends Dashboard is a full-stack app built with the MERN stack and integrated with machine learning for financial trend predictions. It provides interactive visualizations, user authentication, and data management features for financial analysis.",
+      "link": "https://github.com/yashwanth1011/MERN-FinTrends-Dashboard-using-Machine-Learning"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "E-Commerce with Integrated Payment Services",
+      "description": "An e-commerce platform built with Node.js, Express.js, and MongoDB, offering user authentication, product browsing, shopping cart functionality, and secure payments through PayPal.",
+      "link": "https://github.com/yashwanth1011/E-Commerce-with-Integrated-Payment-Services"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
