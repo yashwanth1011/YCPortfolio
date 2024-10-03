@@ -11,10 +11,10 @@ export default function HeroSection() {
               {/* <span className="hero--section-title--color">Full Stack Developer and Machine Learning Enthusiast</span>{" "}
               <br /> */}
               {/* Developer */}
-              <span className="hero--section-title--color">Full Stack  Developer</span>{" "}
+              <span className="hero--section-title--color">Full Stack  Developer,</span>{" "}
             <br />
-            <span className="hero--section-title--color">And</span>{" "}
-            <br/>
+            {/* <span className="hero--section-title--color">And</span>{" "}
+            <br/> */}
             <span className="hero--section-title--color">Machine Learning Enthusiast</span>{" "}
            
             </h1>
