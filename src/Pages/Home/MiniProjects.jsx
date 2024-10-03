@@ -1,12 +1,12 @@
 import data from "../../data/index.json";
 
-export default function MyPortfolio() {
+export default function MiniProjects() {
     return (
-        <section className="portfolio--section" id="MyPortfolio">
+        <section className="portfolio--section" id="MiniPortfolio">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
                    
-                    <h2 className="section--heading">Full Stack Projects</h2>
+                    <h2 className="section--heading">Mini Projects</h2>
                 </div>
                 <div>
                     <a
