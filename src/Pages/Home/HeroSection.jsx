@@ -21,6 +21,7 @@ export default function HeroSection() {
             <p className="hero--section-description">
             I’m a passionate developer and machine learning enthusiast with expertise in 
               <br /> building scalable web applications and solving real-world problems using AI.
+              
             </p>
           </div>
           
