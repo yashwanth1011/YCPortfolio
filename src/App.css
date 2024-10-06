@@ -483,6 +483,7 @@ p.section--title {
   align-items: center;
   text-align: center;
   gap: 64px;
+  background-color: var(--bg-shade);
 }
 .contact--form--container {
   display: grid;
