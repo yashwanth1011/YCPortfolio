@@ -796,6 +796,26 @@ input[type="checkbox"] {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .portfolio--section,
+  .about--section
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .about--section-description{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .skills--section--description{
+    font-size: 12px;
+  }
+
+}
+
 /* Responsive Screens Ends*/
 
 
