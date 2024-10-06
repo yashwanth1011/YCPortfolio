@@ -1,5 +1,9 @@
 /* Global CSS */
-
+a:any-link {
+  color: -webkit-link;
+  text-decoration-line: none;
+  cursor: auto;
+  }
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
