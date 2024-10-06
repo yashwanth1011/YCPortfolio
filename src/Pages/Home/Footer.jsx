@@ -4,6 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer--container">
+      <hr className="divider" />
       <div className="footer--link--container">
         <div>
           <img src="./img/MainLogo.jpg" alt="Logoipsum" width={200} height={80}/>
@@ -59,7 +60,7 @@ function Footer() {
                 to="Contact"
                 className="text-md"
               >
-                Contact
+                Contact Me
               </Link>
             </li>
             
@@ -74,18 +75,9 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                >
-                  <path
-                    d="M22.6667 8.65479H18.6667C17.9303 8.65479 17.3333 9.25175 17.3333 9.98812V13.9881H22.6667C22.8183 13.9848 22.9621 14.0553 23.0523 14.1773C23.1424 14.2993 23.1677 14.4575 23.12 14.6015L22.1333 17.5348C22.0424 17.804 21.7908 17.986 21.5067 17.9881H17.3333V27.9881C17.3333 28.3563 17.0348 28.6548 16.6667 28.6548H13.3333C12.9651 28.6548 12.6667 28.3563 12.6667 27.9881V17.9881H10.6667C10.2985 17.9881 10 17.6896 10 17.3215V14.6548C10 14.2867 10.2985 13.9881 10.6667 13.9881H12.6667V9.98812C12.6667 7.0426 15.0545 4.65479 18 4.65479H22.6667C23.0348 4.65479 23.3333 4.95327 23.3333 5.32145V7.98812C23.3333 8.35631 23.0348 8.65479 22.6667 8.65479Z"
-                    fill="black"
-                  />
-                </svg>
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="32" height="32">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.768 2.653a6.52 6.52 0 0 0-5.193 2.567l-2.07-1.522a9.186 9.186 0 0 1 7.41-3.676C20.12 0 24 4.067 24 8.753a8.406 8.406 0 0 1-2.66 6.115c-1.35 1.305-3.116 1.885-4.88 1.67-2.327-.285-4.223-1.866-4.457-3.638l-.037-.246h9.031v-2.5H10.81c.215-2.117 2.173-4.016 4.684-4.016 2.652 0 4.806 2.086 4.806 4.651 0 2.556-2.154 4.652-4.806 4.652-1.18 0-2.305-.419-3.18-1.177-1.285 1.217-2.992 1.882-4.81 1.882C2.89 16.146 0 13.143 0 9.598c0-1.769.723-3.448 1.971-4.692L8.83 14.924c1.198.734 2.943.295 3.781-.93l.542.405c.37.273.744.504 1.137.68-.365 1.284-1.873 2.121-3.257 2.121-1.038 0-2.063-.413-2.816-1.148L1.97 4.905C.723 6.149 0 7.827 0 9.598 0 13.142 2.89 16.146 6.543 16.146c2.637 0 4.971-1.315 6.19-3.224a6.62 6.62 0 0 0 1.575 2.075 6.544 6.544 0 0 0 4.46 1.671c2.08 0 4.08-.823 5.434-2.29C23.277 11.782 24 10.222 24 8.753c0-4.69-3.88-8.753-8.232-8.753z" fill="black"/>
+</svg>
               </a>
             </li>
             <li>
@@ -134,7 +126,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/yashwanth-chennu-71861a1a6/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -158,54 +150,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <hr className="divider" />
-      <div className="footer--content--container">
-        <center>
-        <div className="footer--social--icon">
-          <ul>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Privacy_Policy"
-                className="text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Terms_of_Service"
-                className="text-sm"
-              >
-                Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Cookies_Settings"
-                className="text-sm"
-              >
-                Cookies Settings
-              </Link>
-            </li>
-          </ul>
-        </div>
-        </center>
-      </div>
+      
+    
     </footer>
   );
 }

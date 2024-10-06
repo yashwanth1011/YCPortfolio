@@ -20,54 +20,56 @@
     }
   ],
   "fs": [
+    
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/realTimeChat.png",
       "title": "Real Time Chat Application",
       "description": "A real-time chat application enabling users to connect instantly via WebSocket technology. It supports both private and group chats, ensuring efficient and seamless messaging. Designed for high performance and responsiveness, the app delivers instant message updates for interactive communication.",
       "link": "https://github.com/yashwanth1011/RealTimeChatApplication"
     },
+    
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "MERN FinTrends Dashboard using Machine Learning",
-      "description": "MERN FinTrends Dashboard is a full-stack app built with the MERN stack and integrated with machine learning for financial trend predictions. It provides interactive visualizations, user authentication, and data management features for financial analysis.",
-      "link": "https://github.com/yashwanth1011/MERN-FinTrends-Dashboard-using-Machine-Learning"
-    },
-    {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/ecommerce.png",
       "title": "E-Commerce with Integrated Payment Services",
       "description": "An e-commerce platform built with Node.js, Express.js, and MongoDB, offering user authentication, product browsing, shopping cart functionality, and secure payments through PayPal.",
       "link": "https://github.com/yashwanth1011/E-Commerce-with-Integrated-Payment-Services"
+    },
+    {
+      "id": "3",
+      "src": "./img/MernFin.png",
+      "title": "MERN FinTrends Dashboard using Machine Learning",
+      "description": "MERN FinTrends Dashboard is a full-stack app built with the MERN stack and integrated with machine learning for financial trend predictions. It provides interactive visualizations, user authentication, and data management features for financial analysis.",
+      "link": "https://github.com/yashwanth1011/MERN-FinTrends-Dashboard-using-Machine-Learning"
     }
    
   ],
   "ml": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/NLPtoSQL.png",
       "title": "Natural-Language-to-SQL-generation",
       "description": "Deep learning models (Transformer, LSTM, GRU) for generating SQL queries from natural language inputs.",
       "link": "https://github.com/yashwanth1011/Natural-Language-to-SQL-generation"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/taxiPred.png",
       "title": "NYC Taxi Trip Duration Predictions",
       "description": "Predicting NYC taxi trip durations using deep learning models like AutoEncoders, LSTM-Transformer, VGG16, and ResNet.",
       "link": "https://github.com/yashwanth1011/-NYC-Taxi-Trip-Duration-Predictions"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/Ethereum.png.webp",
       "title": "Ethereum Fraud Detection",
       "description": "A machine learning-based system for detecting fraudulent Ethereum transactions using Flask for web interface and Python for model development.",
       "link": "https://github.com/yashwanth1011/-Ethereum-Fraud-Detection"
     },
     {
       "id": "4",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/cat.png",
       "title": "Cat Quest Environment using Reinforcement Learning",
       "description": "Reinforcement learning environment simulation with a custom Gym environment for a cat’s quest adventure..",
       "link": "https://github.com/yashwanth1011/Cat-Quest-Environment-Using-Reinforcement-Learning"
@@ -77,28 +79,28 @@
   "mini": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/currenyConverted.png",
       "title": "Currency Converter",
       "description": "A Currency Converter application built with React.js. Convert currencies in real-time using the latest exchange rates, with a user-friendly interface and responsive design. Deployed on Netlify for seamless accessibility.",
       "link": "https://github.com/yashwanth1011/Currency-Converter"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/rockPaperScissors.png",
       "title": "Rock-Paper-Scissors Game",
       "description": "A fun and interactive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript. Play against the computer and see who wins! Simple rules: Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.",
       "link": "https://github.com/yashwanth1011/Rock-paper-scissors-"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/ToDoList.png",
       "title": "To-Do",
       "description": "Java Based To do Application where we can add, delete, update tasks",
       "link": "https://github.com/yashwanth1011/To-Do-App"
     },
     {
       "id": "4",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/snakeGame.png",
       "title": "Snake Game",
       "description": "Simple Python-based Snake Game where you control the snake to eat food and grow longer. Avoid hitting the walls or the snake’s own body to survive! Built with Python, featuring classic gameplay mechanics. Fun, addictive, and easy to play!",
       "link": "https://github.com/yashwanth1011/SnakeGame"
