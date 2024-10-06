@@ -288,7 +288,7 @@ p.section--title {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 250px;
+  min-height: 275px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -812,6 +812,10 @@ input[type="checkbox"] {
 
   .skills--section--description{
     font-size: 12px;
+  }
+
+  .skills--section--card--content{
+    padding-bottom: 5px;
   }
 
 }
