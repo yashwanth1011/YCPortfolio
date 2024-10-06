@@ -10,9 +10,10 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--link--container">
         <div>
-          <img src="./img/MainLogo.jpg" alt="Logoipsum" width={200} height={80}/>
+          <img src="./img/MainLogo.jpg" alt="Logoipsum" width={200} height={80} />
+      
         </div>
-        <div className="footer--items">
+        {/* <div className="footer--items">
           <ul>
             <li>
               <Link
@@ -25,19 +26,6 @@ function Footer() {
                 className="text-md"
               >
                 Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
               </Link>
             </li>
             <li>
@@ -60,6 +48,49 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Full Stack Projects
+              </Link>
+
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                ML Projects
+              </Link>
+              
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Mini Projects
+              </Link>
+              
+            </li>
+            
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="Contact"
                 className="text-md"
               >
@@ -68,8 +99,8 @@ function Footer() {
             </li>
             
           </ul>
-        </div>
-        <div className="footer--social--icon">
+        </div> */}
+        <div className="footer--items">
           <ul>
             <li>
               <a
@@ -78,7 +109,8 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-               <FaGithub size={30} color="black"/>
+                <FaGithub size={30} color="black" />
+                Github
               </a>
             </li>
             <li>
@@ -88,7 +120,8 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-               <SiLeetcode size={30} color="black"/>
+                <SiLeetcode size={30} color="black" />
+                Leetcode
               </a>
             </li>
             <li>
@@ -98,7 +131,8 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaUserCog size={30} color="black"/>
+                <FaUserCog size={30} color="black" />
+                Portfolio
               </a>
             </li>
             <li>
@@ -122,13 +156,14 @@ function Footer() {
                     fill="black"
                   />
                 </svg>
+                LinkedIn
               </a>
             </li>
           </ul>
         </div>
       </div>
-      
-    
+
+
     </footer>
   );
 }
