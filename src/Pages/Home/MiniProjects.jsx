@@ -35,7 +35,7 @@ export default function MiniProjects() {
                 </div>
             </div>
             <div className="portfolio--section--container">
-                {data?.portfolio?.map((item, index) => (
+                {data?.mini?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
                             <img src={item.src} alt="Placeholder" />

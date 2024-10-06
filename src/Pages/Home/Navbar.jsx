@@ -103,7 +103,7 @@ function Navbar() {
               to="MLPortfolio"
               className="navbar--content"
             >
-              ML Projects
+              Machine Learning Projects
             </Link>
           </li>
 

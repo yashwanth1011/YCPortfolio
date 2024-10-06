@@ -34,8 +34,8 @@ export default function MyPortfolio() {
                     </a>
                 </div>
             </div>
-            <div className="portfolio--section--container">
-                {data?.portfolio?.map((item, index) => (
+            <div className="FS--section--container">
+                {data?.fs?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
                             <img src={item.src} alt="Placeholder" />
