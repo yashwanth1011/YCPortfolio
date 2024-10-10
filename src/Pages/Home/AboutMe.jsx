@@ -15,7 +15,7 @@ export default function AboutMe() {
     My experience spans across <strong>front-end</strong> and <strong>back-end development</strong>, where I specialize 
     in technologies such as <strong>React</strong>, <strong>Node.js</strong>, <strong>Spring Boot</strong>, and <strong>AWS</strong>.<br/>
     I have also contributed to impactful <strong>Machine Learning projects</strong>, including <strong>Natural Language Query 
-    to SQL Conversion</strong>, achieving 90% accuracy using <strong>BERT</strong> and <strong>LSTM models</strong>, and 
+    to SQL Conversion</strong>, achieving 90% accuracy using <strong>BERT</strong> and <strong>LSTM models</strong>, and  
     <strong>Ethereum Fraud Detection</strong>, where I developed an ensemble learning model with 92% accuracy.<br/>
     I thrive in dynamic environments, balancing development and data science, and am passionate about solving real-world 
     problems through innovative solutions.
