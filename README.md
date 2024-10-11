@@ -1,22 +1,3 @@
-It looks like the YCPortfolio project contains several files, including a README.md file, configuration files, and directories for source code and dependencies. Below is an overview of the main structure and files present in this portfolio project:
-
-Project Structure
-
-	•	index.html: This is likely the main entry point for the web application. It typically includes the basic HTML structure and links to necessary scripts and styles.
-	•	node_modules/: This folder contains all the dependencies (packages) that are installed for the project using Node.js package manager (npm).
-	•	vite.config.js: This is the configuration file for Vite, a build tool that provides faster development servers and optimized production builds for modern web applications.
-	•	README.md: A markdown file likely containing details about the project, how to run it, and possibly some project documentation.
-	•	public/: This folder typically contains static assets like images, fonts, or public-facing files that are served directly by the server.
-	•	package-lock.json: This file locks the versions of all installed npm packages to ensure that the same package versions are used in every environment.
-	•	package.json: This file contains metadata about the project, like project name, version, dependencies, and scripts for running or building the project.
-	•	eslint.config.js: This is the configuration file for ESLint, a tool used to analyze and enforce coding style and standards.
-	•	.git/: This hidden folder contains Git version control data for tracking changes in the project.
-	•	src/: This folder likely contains the source code of the project, including the JavaScript/TypeScript files, components, and other assets.
-
-Example README
-
-Here’s an example of what your README.md might include. You can replace or update it based on the specific details of your project:
-
 # YCPortfolio
 
 This is a personal portfolio project built using modern web development tools. The purpose of this project is to showcase my skills, projects, and experience in web development and related technologies.
@@ -55,7 +36,7 @@ This is a personal portfolio project built using modern web development tools. T
   ```
 
 
-	3.	Install the dependencies:
+3. Install the dependencies:
 
   ```bash
   npm install 
