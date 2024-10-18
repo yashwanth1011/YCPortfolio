@@ -34,7 +34,7 @@ export default function MLProjects() {
                     </a>
                 </div>
             </div>
-            <div className="portfolio--section--container">
+            <div className="ML--section--container">
                 {data?.ml?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">

@@ -34,7 +34,7 @@ export default function MiniProjects() {
                     </a>
                 </div>
             </div>
-            <div className="portfolio--section--container">
+            <div className="Mini--section--container">
                 {data?.mini?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">

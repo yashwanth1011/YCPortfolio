@@ -337,7 +337,7 @@ p.section--title {
 .about--section-main{
   display: flex;
   flex-direction: row;
-  padding-top: 100px;
+  padding-top: 80px;
 
 }
 
@@ -433,6 +433,22 @@ p.section--title {
   gap: 42.6px; /* Gap between the items */
   width: 100%;
 }
+
+.ML--section--container {
+  display: grid; /* Use CSS grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Three columns per row */
+  gap: 42.6px; /* Gap between the items */
+  width: 100%;
+}
+
+.Mini--section--container {
+  display: grid; /* Use CSS grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Three columns per row */
+  gap: 42.6px; /* Gap between the items */
+  width: 100%;
+}
+
+
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
@@ -840,6 +856,13 @@ input[type="checkbox"] {
   .FS--section--container {
     grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
   }
+  .ML--section--container {
+    grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
+  }
+
+  .Mini--section--container {
+    grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -864,6 +887,17 @@ input[type="checkbox"] {
 
   .skills--section--card--content{
     padding-bottom: 5px;
+  }
+
+  .FS--section--container {
+    grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
+  }
+  .ML--section--container {
+    grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
+  }
+
+  .Mini--section--container {
+    grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
   }
 
 }
