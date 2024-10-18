@@ -335,7 +335,7 @@ p.section--title {
   display: grid;
   padding: 100.3px 85.3px;
   gap: 50.6px;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   /* text-align: center; */
 
 }
@@ -661,7 +661,7 @@ input[type="checkbox"] {
   .footer--items > ul,
   .footer--content--container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
   }
   .skills--section,
