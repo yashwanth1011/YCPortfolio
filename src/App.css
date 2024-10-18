@@ -160,6 +160,10 @@ p.section--title {
 /* Section Titles Ends */
 
 /* Navbar Style Start */
+
+.navbar {
+  z-index: 1000; /* Ensure this is higher than other elements */
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -784,7 +788,7 @@ input[type="checkbox"] {
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
-    z-index: 200;
+    z-index: 10000;
   }
   .navbar--items {
     display: flex;
