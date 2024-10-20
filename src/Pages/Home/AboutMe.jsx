@@ -7,32 +7,21 @@ export default function AboutMe() {
 
       <div className="about--section-container">
 
-        <div className="about--section-headingContainer">
+        {/* <div className="about--section-headingContainer">
           <h1 className="skills-section--heading"> <center>About Me</center></h1>
-        </div>
+        </div> */}
 
-
-
-        <div className="about--section--innerContainer">
-          <div className="about--section-aboutMeTimelineContainer">
-            <div className="about--section--aboutMe">
-              {/* <AboutMeMatter/> */}
-
-            </div>
-            <div className="about--section--timeline">
-              <Timeline />
-
-            </div>
-          </div>
-          <div className="about--section-skills">
-            <MySkills />
-
+        <div className="about--section--contentsContainer">
+          <div className="about--section--timeline">
+           <Timeline/>
 
           </div>
 
+          <div className="about--section--mySkills">
+            <MySkills/>
 
+          </div>
         </div>
-
       </div>
 
 

@@ -139,7 +139,11 @@ p.section--title {
   font-size: 35px;
 }
 
+.timeline-section--h2{
+  font-size: 30px;
+  padding-bottom: 100px;
 
+}
 .section--title {
   color: var(--heading-color);
   font-size: 21px;
@@ -269,7 +273,7 @@ p.section--title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30.667px;
+  gap: 10.667px;
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -277,23 +281,32 @@ p.section--title {
   font-weight: 700;
   line-height: 77px;
 }
+
+.myskills-h2{
+  text-align: center;
+  text-decoration: dotted;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+
 .skills--section--container {
   display: grid;
   justify-content: center;
-  align-items: flex-start;
-  gap: 42.6px;
-  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px
 }
 .skills--section--card {
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 40% 60%;
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 275px;
+  min-height: 175px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -315,9 +328,8 @@ p.section--title {
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
+
+
 }
 .skills--section--title {
   color: var(--heading-color);
@@ -327,36 +339,45 @@ p.section--title {
 }
 .skills--section--description {
   color: var(--black);
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
+
+
+.skills-outContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* Skills Style Ends */
 
-.about--section-main{
+.about--section-main{  
+
+  padding-top: 150px;
+
+
+
+}
+
+.about--section-container{
   display: flex;
-  flex-direction: row;
-  padding-top: 80px;
+  flex-direction: column;
 
 }
 
 
 .about--section-headingContainer{
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
-
-.about--section-aboutMeTimelineContainer{
-  display: flex;
-  flex-direction: column;
+.about--section--contentsContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-
-
-
-
-
 
 
 
@@ -672,6 +693,10 @@ input[type="checkbox"] {
     font-size: 28px;
     line-height: 40px;
   }
+
+  .skills--section--description{
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -689,12 +714,16 @@ input[type="checkbox"] {
     gap: 20px;
   }
   .skills--section--title {
-    font-size: 23px;
+    font-size: 16px;
     line-height: 30px;
   }
   .skills--section--description {
     font-size: 15 px;
     line-height: 27px;
+  }
+
+  .skills--section--container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -712,7 +741,7 @@ input[type="checkbox"] {
   .footer--content {
     text-align: center;
   }
-  .skills--section--container,
+
   .about--section,
   .portfolio--section--container,
   .portfolio--container-box,
@@ -776,6 +805,9 @@ input[type="checkbox"] {
   }
   .divider {
     margin: 20px;
+  }
+  .skills--section--container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -863,6 +895,12 @@ input[type="checkbox"] {
   .Mini--section--container {
     grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
   }
+
+  .skills--section--container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -876,13 +914,28 @@ input[type="checkbox"] {
 
   }
 
+  .about--section--contentsContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills--section--container{
+   
+    flex-direction: column;
+  }
+
+  .text-md{
+    font-size: 16px;
+  }
+
+
   .about--section-description{
     font-size: 15px;
     line-height: 25px;
   }
 
   .skills--section--description{
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .skills--section--card--content{
@@ -898,6 +951,10 @@ input[type="checkbox"] {
 
   .Mini--section--container {
     grid-template-columns: repeat(1, 1fr); /* Two columns on tablets or small screens */
+  }
+
+  .skills--section--container {
+    grid-template-columns: repeat(1, 1fr);
   }
 
 }
