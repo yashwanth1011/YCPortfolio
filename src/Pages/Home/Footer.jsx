@@ -7,8 +7,10 @@ import { FaUserCog } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="footer--container">
-      <hr className="divider" />
+      {/* <hr className="divider" /> */}
+      
       <div className="footer--link--container">
+      
         <div>
           <img src="./img/MainLogo.jpg" alt="Logoipsum" width={200} height={80} />
       

@@ -1,4 +1,4 @@
-import AboutMeMatter from "./AboutMeMatter";
+
 import MySkills from "./MySkills";
 import Timeline from "./Timeline";
 export default function AboutMe() {

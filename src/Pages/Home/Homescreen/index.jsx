@@ -18,7 +18,7 @@ export default function Home() {
       <MiniProjects/>
 
       <ContactMe />
-      <Footer />
+      {/* <Footer /> */}
   
     </>
   );
